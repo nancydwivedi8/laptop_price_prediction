@@ -1,3 +1,6 @@
+import streamlit as st
+import pandas as pd
+import joblib
 if st.button("Predict Price"):
     input_data = pd.DataFrame([{
         "Company": company,
